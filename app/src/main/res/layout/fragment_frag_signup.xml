@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".frag_signup"
+    android:background="#CCE9F6">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:background="#CCE9F6"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="25dp"
+        android:layout_gravity="center"
+        android:padding="5dp">
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="e-mail id"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+            android:background="@drawable/custombutton"
+            android:inputType="textEmailAddress"
+            android:textSize="25sp"
+            android:textColor="#FA1212"
+            android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:padding="5dp">
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="password"
+            android:gravity="center"
+            android:drawableLeft="@drawable/password"
+            android:background="@drawable/custombutton"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp" />
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:padding="5dp">
+            <EditText
+                android:id="@+id/repass"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:hint="confirm password"
+                android:gravity="center"
+                android:background="@drawable/custombutton"
+                android:inputType="textVisiblePassword"
+                android:drawableStart="@drawable/ic_baseline_security_24"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:drawablePadding="10dp" />
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                app:cardCornerRadius="25dp"
+                app:cardBackgroundColor="#CCE9F6">
+                <Button
+                    android:id="@+id/registerbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/purple_500"
+                    android:text="register"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</FrameLayout>
