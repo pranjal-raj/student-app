@@ -9,6 +9,7 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.myapplication.adapters.AdapterPdfAdmin;
 import com.example.myapplication.databinding.ActivityPdfListAdminBinding;
@@ -109,7 +110,7 @@ public class PdfListAdminActivity extends AppCompatActivity {
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
-
+                        Toast.makeText(PdfListAdminActivity.this, "Unable to retrieve data", Toast.LENGTH_SHORT).show();
                     }
                 });
     }

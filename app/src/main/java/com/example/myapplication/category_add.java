@@ -1,13 +1,13 @@
 package com.example.myapplication;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.databinding.ActivityCategoryAddBinding;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -49,6 +49,7 @@ public class category_add extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 validateData();
+                onBackPressed();
             }
         });
     }

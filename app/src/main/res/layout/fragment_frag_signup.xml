@@ -28,11 +28,11 @@
             android:layout_height="40dp"
             android:hint="e-mail id"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+            android:drawableLeft="@drawable/mail_lock"
             android:background="@drawable/custombutton"
             android:inputType="textEmailAddress"
             android:textSize="25sp"
-            android:textColor="#FA1212"
+            android:textColorHint="#124CFA"
             android:layout_gravity="center"/>
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
@@ -49,8 +49,9 @@
             android:layout_height="40dp"
             android:hint="password"
             android:gravity="center"
-            android:drawableLeft="@drawable/password"
+            android:drawableLeft="@drawable/lock_open"
             android:background="@drawable/custombutton"
+            android:textColorHint="#2947F4"
             android:inputType="textPassword"
             android:textSize="25sp"
             android:layout_gravity="center"
@@ -70,6 +71,7 @@
                 android:layout_height="40dp"
                 android:hint="confirm password"
                 android:gravity="center"
+                android:textColorHint="#1736E1"
                 android:background="@drawable/custombutton"
                 android:inputType="textVisiblePassword"
                 android:drawableStart="@drawable/ic_baseline_security_24"
@@ -87,7 +89,7 @@
                 app:cardBackgroundColor="#CCE9F6">
                 <Button
                     android:id="@+id/registerbtn"
-                    android:layout_width="wrap_content"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:background="@color/purple_500"
                     android:text="register"

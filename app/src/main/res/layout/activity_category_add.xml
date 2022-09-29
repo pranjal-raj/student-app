@@ -5,7 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".category_add"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#9521E8">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/telephony"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW CATEGORY"
+        android:textColor="#5820CF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
 
     <EditText
         android:id="@+id/categoryEt"
@@ -14,9 +30,11 @@
         android:hint=" Add Category "
         android:inputType="text"
         android:autofillHints="name"
+        android:textColorHint="#6A9AEA"
         android:layout_marginTop="100dp"
         android:layout_gravity="center"
-        android:textSize="25sp"
+        android:textSize="20sp"
+        android:textStyle="italic"
         android:textColor="@color/white"/>
 
     <Button
@@ -24,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" SUBMIT "
-        android:background="@color/teal_200"
+        android:background="#651FFF"
         android:layout_gravity="center"/>
 
 </LinearLayout>

@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -68,6 +69,8 @@ public class Homepage extends AppCompatActivity {
 
             }
         });
+
+
 
         //handle click, start category add screen
         binding.addCategoryBtn.setOnClickListener(new View.OnClickListener() {
