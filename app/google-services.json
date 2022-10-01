@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1060208784251",
+    "firebase_url": "https://book-management-16269-default-rtdb.firebaseio.com",
+    "project_id": "book-management-16269",
+    "storage_bucket": "book-management-16269.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060208784251:android:8505d4c42ded5d3f5c03de",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060208784251-he554a0kqp7gam37m6vet1n54ksiqhke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "e6c8f7d49cd40bdb29d07f8784d4e51510f6aa96"
+          }
+        },
+        {
+          "client_id": "1060208784251-lk6o40vraak2n3r1ghictecml6rh1gpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7OKulNlCc3IUnIxo0iUvEC1UcL6m2G9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060208784251-lk6o40vraak2n3r1ghictecml6rh1gpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
