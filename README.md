@@ -5,7 +5,7 @@ Following are the main features/tasks that will be
 appointed to each team member.
 
 Timetable Planner - Sukrit Kaur Oberoi 
-Status : Incomplete
+Status : Incomplete []
 Details:
 -Screen to map/feed timetable
 -Screen/fragments to load subjects n teachers
